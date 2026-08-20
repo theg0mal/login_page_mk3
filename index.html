@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="scene">
+        <div class="login-container">
+
+            <div class="window-bar">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <span class="window-title">auth.session</span>
+            </div>
+
+            <div class="brand">
+                <img src="logo.png" alt="Logo" class="logo">
+                <span class="brand-mark">&lt;/&gt;</span>
+            </div>
+
+            <h1>Login<span class="cursor">_</span></h1>
+            <p class="subtitle">Masuk untuk melanjutkan sesi kamu</p>
+
+            <form>
+                <label for="username">Nama Pengguna</label>
+                <input type="text"
+                       id="username"
+                       name="username"
+                       placeholder="Masukkan Username"
+                       required>
+
+                <label for="password">Kata Sandi</label>
+                <input type="password"
+                       id="password"
+                       name="password"
+                       placeholder="Masukkan Kata Sandi"
+                       required>
+
+                <button type="submit">Login</button>
+            </form>
+
+            <p class="link-row"><a href="#">Lupa kata sandi anda?</a></p>
+            <p class="link-row"><a href="#">Daftar Sekarang</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
